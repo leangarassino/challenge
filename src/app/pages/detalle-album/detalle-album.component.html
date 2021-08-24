@@ -1,0 +1,19 @@
+<div>
+    <mat-toolbar>
+      <h1 class="center">Detalle del album</h1>
+    </mat-toolbar>
+  <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{detalleAlbum.title}}</mat-card-title>
+        <mat-card-subtitle>Usuario: {{detalleAlbum.userId}}</mat-card-subtitle>
+        <mat-card-subtitle>Numero de Album: {{detalleAlbum.id}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary" (click)="galeria(detalleAlbum.id)">Galería de fotos </button>
+        <button mat-button color="primary" (click)="detalleUser(detalleAlbum.userId)">Detalles del usuario </button>
+        <button mat-button color="primary" (click)='volverAlbums()'>Volver</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

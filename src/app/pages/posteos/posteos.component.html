@@ -1,0 +1,13 @@
+<div>
+  <mat-toolbar>
+    <h1 class="center">Todas las noticias</h1>
+  </mat-toolbar>
+<mat-card class="example-card" *ngFor="let posts of listPosteos">
+    <mat-card-header>
+      <mat-card-title>{{posts.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-actions>
+      <button mat-button color="primary" (click)="detallePost(posts.id)">Detalles de la noticia</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

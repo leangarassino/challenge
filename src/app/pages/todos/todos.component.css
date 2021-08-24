@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 250px;
+  margin: 1%
+}
+div{ 
+  display:flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  justify-content: space-evenly;
+  text-align: center
+}
+.center{ 
+  font-size:35px;
+  color: #673ab7;
+}

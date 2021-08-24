@@ -1,0 +1,20 @@
+<div>
+    <mat-toolbar>
+      <h1 class="center">Detalle del album</h1>
+    </mat-toolbar>
+  <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Titulo: {{detalleTodo.title}}</mat-card-title>
+        <mat-card-subtitle>Id del Usuario: {{detalleTodo.userId}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+            <p>Estado:</p>
+            <p class="text3"> {{detalleTodo.completed}}</p>
+            
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary">Modificar</button>
+        <button mat-button color="primary" (click)="volver()">Volver</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

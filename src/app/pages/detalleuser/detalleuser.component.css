@@ -1,0 +1,13 @@
+div{ 
+    display:flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.center{ 
+    font-size:35px;
+    color: #673ab7;
+}
+.example-card{ 
+    margin: 1%;
+    text-align: center;
+}

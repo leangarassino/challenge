@@ -1,0 +1,23 @@
+.grid{
+    background-color: #683ab7;
+    width: 20vw;
+    display: column;
+    align-self: center;
+    color: #FFFFFF;
+}
+.grid:hover{
+    background-color: #FFFFFF;
+    color: #683ab7;
+}
+.text{
+    text-align: center;
+    font-size: 2em; 
+    font-weight:500;
+    color: #673ab7;
+}
+div{
+    margin: 2%;
+}
+.height{
+    height: 70vh;
+}

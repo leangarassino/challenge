@@ -1,0 +1,12 @@
+.text{ 
+  justify-content: 'center';
+  text-align: center;
+  padding: 5%;
+}
+.margin{
+    margin:2%;
+}
+.title{
+    font-size:35px;
+    color: #673ab7;
+}

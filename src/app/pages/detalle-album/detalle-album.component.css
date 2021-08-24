@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 300px;
+    margin: 1%;
+  }
+.center{ 
+    font-size:35px;
+    color: #673ab7;
+}
+div{
+    display: column;
+    text-align: center;
+}
